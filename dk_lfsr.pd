@@ -28,7 +28,7 @@
 #X obj 560 1232 +;
 #X obj 458 1288 +;
 #X obj 458 1340 / 15;
-#X obj 458 1425 outlet r2r;
+#X obj 458 1392 outlet r2r;
 #X obj 664 363 loadbang;
 #X obj 538 276 sig~ 1;
 #X obj 466 322 merge~ 3;
@@ -85,7 +85,6 @@
 #X obj 815 1181 sig~ \$1;
 #X obj 339 1175 sig~ \$1;
 #X obj 339 1288 outlet~ r1trig;
-#X obj 458 1383 scaleit 0 1 -1 1;
 #X obj 676 265 sig~ \$1;
 #X connect 1 0 16 0;
 #X connect 2 0 14 0;
@@ -101,7 +100,7 @@
 #X connect 11 0 8 0 32.................R....j2+++uD....48+++iB....;
 #X connect 12 0 8 0;
 #X connect 13 0 57 0;
-#X connect 13 1 87 0;
+#X connect 13 1 86 0;
 #X connect 14 0 5 1;
 #X connect 15 0 12 0;
 #X connect 15 1 44 0 32.................i....jA...vH....Y....XD....;
@@ -130,7 +129,7 @@
 #X connect 25 0 27 0;
 #X connect 26 0 27 1 32.................Q....X5+++eD....l9+++WB....;
 #X connect 27 0 28 0;
-#X connect 28 0 86 0;
+#X connect 28 0 29 0;
 #X connect 30 0 3 0;
 #X connect 31 0 32 2;
 #X connect 32 0 34 0;
@@ -165,6 +164,5 @@
 #X connect 82 0 79 0;
 #X connect 83 0 80 0;
 #X connect 84 0 85 0;
-#X connect 86 0 29 0;
-#X connect 87 0 57 0;
+#X connect 86 0 57 0;
 #X coords 0 0 1 1 107 69 1 7 8;

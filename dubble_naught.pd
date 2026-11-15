@@ -11,7 +11,6 @@
 #X text 447 126 based on the lorre-mill double-knot v2;
 #X text 447 200 top: oscillator pair;
 #X text 447 220 dark->pitch \, light->fm amount;
-#X text 447 240 knob->FM 1->2 . 0 . 2<-1;
 #X text 447 145 requires ELSE and Cyclone;
 #X text 447 272 side: linear feedback shift register;
 #X text 447 292 red->clear step \, white->add step;
@@ -20,3 +19,5 @@
 #X text 447 378 left->velocity \, right->sink/decay;
 #X text 447 398 x_l->loop \, x_r->linear/exponential;
 #X text 447 433 bottom: mid-scoop/saturate vca;
+#X text 447 240 knob->FM 1->2 . 1<->2 . 2->1;
+#X text 498 449 with offset;
