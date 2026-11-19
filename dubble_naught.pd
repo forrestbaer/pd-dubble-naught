@@ -21,3 +21,4 @@
 #X text 447 433 bottom: mid-scoop/saturate vca;
 #X text 447 240 knob->FM 1->2 . 1<->2 . 2->1;
 #X text 498 449 with offset;
+#X connect 2 0 4 1;
